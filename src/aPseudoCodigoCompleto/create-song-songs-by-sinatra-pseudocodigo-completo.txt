@@ -131,7 +131,7 @@
 	*Validar espacio Vacío y no tener Likes
 	*Validar link "edit this songs"
 	*Validar botón "Delete this song"
-	*Validar link "log out".
+	c*Validar link "log out".
 	
 	
 	
