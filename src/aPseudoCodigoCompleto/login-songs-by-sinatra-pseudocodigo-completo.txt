@@ -1,0 +1,66 @@
+1.- Tener instalado Navegador para entrar a la pagina WEB:
+	*Chrome
+	*Firefox
+	*Edge
+	*Explorer
+	*Etc.
+	
+2.- Entrar a la siguiente URL:
+	*http://songs-by-sinatra.herokuapp.com/
+	
+3.- Dar click enter
+	*Se muestra la Pagina de "Songs By Sinatra"
+
+4.- Validar objetos de la pagina principal:
+	*Estar situado en la pestaña Home
+	*Validar foto de Microfono.
+	*Validar Texto Titulo "Songs By Sinatra"
+	*Validar Pestaña "Home"
+	*Validar Pestaña "About"
+	*Validar Pestaña "Contact"
+	*Validar Pestaña "Songs"
+	*Validar la texto de bienvenido al sitio "Welcome to this website all about the songs of the great Frank Sinatra"
+	*Validar la foto de "Frank Sinatra".
+	*Validar Link "log in".
+
+5.- Dar click link "log in"
+	*El sistema me redirige a la pagina de "login".
+
+6.- Validar objetos de la pagina:
+	*Validar foto de Microfono.
+	*Validar Texto Titulo "Songs By Sinatra"
+	*Validar Pestaña "Home"
+	*Validar Pestaña "About"
+	*Validar Pestaña "Contact"
+	*Validar Pestaña "Songs"
+	*Validar Texto "Username:".
+	*Validar campo de texto situado abajo del texto "Username:".
+	*Validar Texto "Password:".
+	*Validar campo de texto situado abajo del texto "Password:".
+	*Validar Botón "Log In".
+	*Validar link "log in".
+
+7.- Ingresar Nombre en campo "Username".
+	*El sistema muestra el nombre del texto en el campo de "Username".
+	
+8.- Ingresar Nombre en campo "Password".
+	*El sistema muestra la contraseña encriptada en camapo "Password".
+	
+9.- Dar click botón "Log In".
+	*El sistema muestra una pagina con el siguiente texto en formato rojo "You are now logged in as frank".
+	
+10.- Validar objetos de la pagina:
+	*Estar situado en la pestaña Home
+	*Validar foto de Microfono.
+	*Validar Texto Titulo "Songs By Sinatra"
+	*Validar Pestaña "Home"
+	*Validar Pestaña "About"
+	*Validar Pestaña "Contact"
+	*Validar Pestaña "Songs"
+	*Validar texto rojo de logue correcto al sitio "You are now logged in as frank"
+	*Validar texto chico de bienvenido al sitio "Welcome to this website all about the songs of the great Frank Sinatra"
+	*Validar la foto de "Frank Sinatra".
+	*Validar Link "log Out".
+	
+	
+	

@@ -1,0 +1,140 @@
+1.- Tener instalado Navegador para entrar a la pagina WEB:
+	*Chrome
+	*Firefox
+	*Edge
+	*Explorer
+	*Etc.
+	
+2.- Entrar a la siguiente URL:
+	*http://songs-by-sinatra.herokuapp.com/
+	
+3.- Dar click enter
+	*Se muestra la Pagina de "Songs By Sinatra"
+
+4.- Validar objetos de la pagina principal:
+	*Estar situado en la pestaña Home
+	*Validar foto de Microfono.
+	*Validar Texto Titulo "Songs By Sinatra"
+	*Validar Pestaña "Home"
+	*Validar Pestaña "About"
+	*Validar Pestaña "Contact"
+	*Validar Pestaña "Songs"
+	*Validar la texto de bienvenido al sitio "Welcome to this website all about the songs of the great Frank Sinatra"
+	*Validar la foto de "Frank Sinatra".
+	*Validar Link "log in".
+
+5.- Dar click link "log in"
+	*El sistema me redirige a la pagina de "login".
+
+6.- Validar objetos de la pagina:
+	*Validar foto de Microfono.
+	*Validar Texto Titulo "Songs By Sinatra"
+	*Validar Pestaña "Home"
+	*Validar Pestaña "About"
+	*Validar Pestaña "Contact"
+	*Validar Pestaña "Songs"
+	*Validar Texto "Username:".
+	*Validar campo de texto situado abajo del texto "Username:".
+	*Validar Texto "Password:".
+	*Validar campo de texto situado abajo del texto "Password:".
+	*Validar Botón "Log In".
+	*Validar link "log in".
+
+7.- Ingresar Nombre en campo "Username".
+	*El sistema muestra el nombre del texto en el campo de "Username".
+	
+8.- Ingresar Nombre en campo "Password".
+	*El sistema muestra la contraseña encriptada en campo "Password".
+	
+9.- Dar click botón "Log In".
+	*El sistema muestra una pagina con el siguiente texto en formato rojo "You are now logged in as frank".
+	
+10.- Validar objetos de la pagina:
+	*Estar situado en la pestaña Home
+	*Validar foto de Microfono.
+	*Validar Texto Titulo "Songs By Sinatra"
+	*Validar Pestaña "Home"
+	*Validar Pestaña "About"
+	*Validar Pestaña "Contact"
+	*Validar Pestaña "Songs"
+	*Validar texto rojo de logue correcto al sitio "You are now logged in as frank"
+	*Validar texto chico de bienvenido al sitio "Welcome to this website all about the songs of the great Frank Sinatra"
+	*Validar la foto de "Frank Sinatra".
+	*Validar Link "log Out".
+	
+11.- Dar click Pestaña "Songs"
+	*El sistema muestra una pagina con una lista de canciones y la opción de crear una canción.
+	
+12.- Validar objetos de la pagina:
+	*Estar situado en pestaña "Songs"
+	*Validar foto de Microfono.
+	*Validar Texto Titulo "Songs By Sinatra"
+	*Validar Pestaña "Home"
+	*Validar Pestaña "About"
+	*Validar Pestaña "Contact"
+	*Validar Pestaña "Songs"
+	*Validar texto rojo del titulo de la pagina "Songs"
+	*Validar Link "Create a New Song".
+	*Validar links de "lista de canciones creadas".
+	
+13.- Dar click link "Create a New Song".
+	*El sistema me redirige a un formulario para crear una canción.
+	
+14.- Validar objetos de la pagina:
+	*Validar foto de Microfono.
+	*Validar Texto Titulo "Songs By Sinatra"
+	*Validar Pestaña "Home"
+	*Validar Pestaña "About"
+	*Validar Pestaña "Contact"
+	*Validar Pestaña "Songs"
+	*Validar texto rojo del titulo de la pagina "Add A New Song"
+	*Validar Texto "Title:".
+	*Validar campo de texto situado abajo del texto "Title:".
+	*Validar Texto "Length:".
+	*Validar campo de texto situado abajo del texto "Length:".
+	*Validar Texto "Date(mm/DD/YYyy):".
+	*Validar campo de texto situado abajo del texto "Date(mm/DD/YYyy)::".
+	*Validar Texto "Lyrics:".
+	*Validar campo de texto situado abajo del texto "Lyrics:".
+	*Validar Botón "Save Song".
+	*Validar link "log out".
+	
+15.- Ingresar titulo en campo "title"
+	*El sistema muestra información en el campo.
+
+16.- Ingresar numeros en campo "Length"
+	*El sistema muestra información en el campo.
+	
+17.- Ingresar una fecha en campo "Date(mm/dd/yyyy)"
+	*El sistema muestra información en el campo.
+
+18.- Ingresar letras en campo "Lyrics"
+	*El sistema muestra información en el campo.
+	
+19.- Dar click botón "Save Song".
+	*El sistema muestra una pagina con el siguiente texto en formato rojo "Song successfully added".
+
+20.- Validar objetos de la pagina:
+	*Validar foto de Microfono.
+	*Validar Texto Titulo "Songs By Sinatra"
+	*Validar Pestaña "Home"
+	*Validar Pestaña "About"
+	*Validar Pestaña "Contact"
+	*Validar Pestaña "Songs"
+	*Validar texto rojo "Song successfully added"
+	*Validar texto rojo del titulo de la pagina "Nombre de la canción"
+	*Validar Texto "Release Date:" - "Fecha de la Canción"
+	*Validar Texto "Length:" - "Tamaño de la canción"
+	*Validar Texto "Letra de la canción"
+	*Validar Texto rojo  "Nobody has liked this song so far!"
+	*Validar Botón "Icono de Manita y Texto Like"
+	*Validar espacio Vacío y no tener Likes
+	*Validar link "edit this songs"
+	*Validar botón "Delete this song"
+	*Validar link "log out".
+	
+	
+	
+	
+	
+	
