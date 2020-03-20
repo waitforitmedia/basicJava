@@ -1,0 +1,18 @@
+hacerSandwitch(){
+
+...
+
+	Si (el usuario no le gustan las orillas){
+		numero de orillas igual a 8
+		while(orillas es mayor que 0){
+			quitar una orilla
+			numero de orillas es igual a numero de orillas menos 1
+		}
+	
+	}
+	
+
+...
+
+
+}

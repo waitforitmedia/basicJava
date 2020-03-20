@@ -1,0 +1,11 @@
+crear5Canciones(){
+
+	numero de canciones es igual a 0
+	while(numero de canciones es menor o igual a 4){
+		CrearCancion()
+		numero de canciones es igual a numero de canciones mas 1
+		
+	}
+	fin
+	....
+}
