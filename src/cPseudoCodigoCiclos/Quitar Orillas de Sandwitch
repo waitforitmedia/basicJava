@@ -2,7 +2,7 @@ hacerSandwitch(){
 
 ...
 
-	Si (el usuario no le gustan las orillas){
+	if (el usuario no le gustan las orillas){
 		numero de orillas igual a 8
 		while(orillas es mayor que 0){
 			quitar una orilla

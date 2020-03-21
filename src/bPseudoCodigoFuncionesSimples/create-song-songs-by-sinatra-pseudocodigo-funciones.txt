@@ -1,78 +1,84 @@
 validarObjetosPrincipales(){
-		*Validar foto de Microfono.
-		*Validar Texto Titulo "Songs By Sinatra"
-		*Validar Pestaña "Home"
-		*Validar Pestaña "About"
-		*Validar Pestaña "Contact"
-		*Validar Pestaña "Songs"
-	}
+	*Validar foto de Microfono.
+	*Validar Texto Titulo "Songs By Sinatra"
+	*Validar Pestaña "Home"
+	*Validar Pestaña "About"
+	*Validar Pestaña "Contact"
+	*Validar Pestaña "Songs"
+}
 	
-	--------------------------------------------------------------------
+ValidarSongsPage(){
+	validarObjetosPrincipales()
+	*Estar situado en pestaña "Songs"
+	*Validar texto rojo del titulo de la pagina "Songs"
+	*Validar Link "Create a New Song".
+	*Validar links de "lista de canciones creadas".
+		
+}
+		
+ValidarNewSongPage(){
+	validarObjetosPrincipales()
+	*Validar texto rojo del titulo de la pagina "Add A New Song"
+	*Validar Texto "Title:".
+	*Validar campo de texto situado abajo del texto "Title:".
+	*Validar Texto "Length:".
+	*Validar campo de texto situado abajo del texto "Length:".
+	*Validar Texto "Date(mm/DD/YYyy):".
+	*Validar campo de texto situado abajo del texto "Date(mm/DD/YYyy)::".
+	*Validar Texto "Lyrics:".
+	*Validar campo de texto situado abajo del texto "Lyrics:".
+	*Validar Botón "Save Song".
+	*Validar link "log out".
+		
+}
+		
+ValidarSongInfoPage(){
+	validarObjetosPrincipales()
+	*Validar texto rojo "Song successfully added"
+	*Validar texto rojo del titulo de la pagina "Nombre de la canción"
+	*Validar Texto "Release Date:" - "Fecha de la Canción"
+	*Validar Texto "Length:" - "Tamaño de la canción"
+	*Validar Texto "Letra de la canción"
+	*Validar Texto rojo  "Nobody has liked this song so far!"
+	*Validar Botón "Icono de Manita y Texto Like"
+	*Validar espacio Vacío y no tener Likes
+	*Validar link "edit this songs"
+	*Validar botón "Delete this song"
+	*Validar link "log out".
+}
+		
+-------------------------------------------------------------------
 	
 crearCancion(){
-		logInCorrecto()
-			Dar click Pestaña "Songs"
-			*El sistema muestra una pagina con una lista de canciones y la opción de crear una canción.
+	logInCorrecto()
+		Dar click Pestaña "Songs"
+		*El sistema muestra una pagina con una lista de canciones y la opción de crear una canción.
 		
-		ValidarObjetosSong(){
-			validarObjetosPrincipales()
-			*Estar situado en pestaña "Songs"
-			*Validar texto rojo del titulo de la pagina "Songs"
-			*Validar Link "Create a New Song".
-			*Validar links de "lista de canciones creadas".
+	ValidarSongsPage()
 		
-		}
+	Dar click link "Create a New Song".
+	*El sistema me redirige a un formulario para crear una canción.
 		
-			Dar click link "Create a New Song".
-			*El sistema me redirige a un formulario para crear una canción.
+	ValidarNewSongPage()
 		
-		ValidarObjetosNewSong(){
-			validarObjetosPrincipales()
-			*Validar texto rojo del titulo de la pagina "Add A New Song"
-			*Validar Texto "Title:".
-			*Validar campo de texto situado abajo del texto "Title:".
-			*Validar Texto "Length:".
-			*Validar campo de texto situado abajo del texto "Length:".
-			*Validar Texto "Date(mm/DD/YYyy):".
-			*Validar campo de texto situado abajo del texto "Date(mm/DD/YYyy)::".
-			*Validar Texto "Lyrics:".
-			*Validar campo de texto situado abajo del texto "Lyrics:".
-			*Validar Botón "Save Song".
-			*Validar link "log out".
+	Ingresar titulo en campo "title"
+	*El sistema muestra información en el campo.
 		
-		}
-		
-			Ingresar titulo en campo "title"
-			*El sistema muestra información en el campo.
-		
-			Ingresar numeros en campo "Length"
-			*El sistema muestra información en el campo.
+	Ingresar numeros en campo "Length"
+	*El sistema muestra información en el campo.
 			
-			Ingresar una fecha en campo "Date(mm/dd/yyyy)"
-			*El sistema muestra información en el campo.
+	Ingresar una fecha en campo "Date(mm/dd/yyyy)"
+	*El sistema muestra información en el campo.
 		
-			Ingresar letras en campo "Lyrics"
-			*El sistema muestra información en el campo.
+	Ingresar letras en campo "Lyrics"
+	*El sistema muestra información en el campo.
 			
-			Dar click botón "Save Song".
-			*El sistema muestra una pagina con el siguiente texto en formato rojo "Song successfully added".
+	Dar click botón "Save Song".
+	*El sistema muestra una pagina con el siguiente texto en formato rojo "Song successfully added".
 	
-		ValidarObjetosNewSongSaved(){
-			validarObjetosPrincipales()
-			*Validar texto rojo "Song successfully added"
-			*Validar texto rojo del titulo de la pagina "Nombre de la canción"
-			*Validar Texto "Release Date:" - "Fecha de la Canción"
-			*Validar Texto "Length:" - "Tamaño de la canción"
-			*Validar Texto "Letra de la canción"
-			*Validar Texto rojo  "Nobody has liked this song so far!"
-			*Validar Botón "Icono de Manita y Texto Like"
-			*Validar espacio Vacío y no tener Likes
-			*Validar link "edit this songs"
-			*Validar botón "Delete this song"
-			*Validar link "log out".
-		}
+	ValidarSongInfoPage()
 		
-		}
+}
 	
 	
 	
