@@ -10,7 +10,5 @@ public class EjemploFloat {
 		float f2 = Input.get_float();
 		
 		Input.print("f/f2 = " + (f/f2));
-
 	}
-
 }

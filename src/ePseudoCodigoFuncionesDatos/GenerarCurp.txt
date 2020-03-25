@@ -1,0 +1,25 @@
+CURP generarCurp(Nombre,ApellitoPaterno,ApellidoMaterno,Sexo,FechaDeNac,EstadoDeNac){
+	
+	Obtener primeras dos letras del primer nombre
+	Obtener primera letra del apellido paterno
+	Obtener primera letra del apellido materno
+	Extraer día de Nacimiento 
+	Extraer mes de Nacimiento 
+	Extraer año de Nacimiento 
+	If (año de nacimiento < 10){
+	agregar un digito 0 al año de Nacimiento
+	}
+	If (Mes de nacimiento < 10){
+	agregar un digito 0 al mes de Nacimiento
+	}
+	If (dia de nacimiento < 10){
+	agregar un digito 0 al dia de Nacimiento
+	}
+	Obtener clave entidad federativa de nacimiento
+	Obtener la primera consonantes internas del apellido
+	Obtener la primera consonantes internas del nombre 
+	Obtener dijitos asignados por RENAPO.
+	return info (...)
+}
+
+generarCurp(Jose,Gomez,Gonzales,M,09/08/1985,MexicoDF)

@@ -1,65 +1,64 @@
 
 elegirNavegador(){
-		*Chrome
-		*Firefox
-		*Edge
-		*Explorer
-		*Etc.
-		}
+	*Chrome
+	*Firefox
+	*Edge
+	*Explorer
+	*Etc.
+}
 		
-		validarHomePage(){
-		validarObjetosPrincipales()
-		*Estar situado en la pestaña Home
-		*Validar la texto de bienvenido al sitio "Welcome to this website all about the songs of the great Frank Sinatra"
-		*Validar la foto de "Frank Sinatra".
-		*Validar Link "log in".
-	}
+validarHomePage(){
+	validarObjetosPrincipales()
+	*Estar situado en la pestaña Home
+	*Validar la texto de bienvenido al sitio "Welcome to this website all about the songs of the great Frank Sinatra"
+	*Validar la foto de "Frank Sinatra".
+	*Validar Link "log in".
+}
 	
-	ValidarLogInPage(){
-		validarObjetosPrincipales()
-		*Validar Texto "Username:".
-		*Validar campo de texto situado abajo del texto "Username:".
-		*Validar Texto "Password:".
-		*Validar campo de texto situado abajo del texto "Password:".
-		*Validar Botón "Log In".
-		*Validar link "log in".
-	}
+ValidarLogInPage(){
+	validarObjetosPrincipales()
+	*Validar Texto "Username:".
+	*Validar campo de texto situado abajo del texto "Username:".
+	*Validar Texto "Password:".
+	*Validar campo de texto situado abajo del texto "Password:".
+	*Validar Botón "Log In".
+	*Validar link "log in".
+}
 	
-	ValidarUserLoggedHomePage(){
-		validarObjetosPrincipales()
-		*Estar situado en la pestaña Home
-		*Validar texto rojo de logue correcto al sitio "You are now logged in as frank"
-		*Validar texto chico de bienvenido al sitio "Welcome to this website all about the songs of the great Frank Sinatra"
-		*Validar la foto de "Frank Sinatra".
-		*Validar Link "log Out".
-	}
+ValidarUserLoggedHomePage(){
+	validarObjetosPrincipales()
+	*Estar situado en la pestaña Home
+	*Validar texto rojo de logue correcto al sitio "You are now logged in as frank"
+	*Validar texto chico de bienvenido al sitio "Welcome to this website all about the songs of the great Frank Sinatra"
+	*Validar la foto de "Frank Sinatra".
+	*Validar Link "log Out".
+}
 
 
 --------------------------------------------------------------------
 logInCorrecto(){
 	elegirNavegador()
 	
-		Entrar a la siguiente URL:
-		*http://songs-by-sinatra.herokuapp.com/
+	Entrar a la siguiente URL:
+	*http://songs-by-sinatra.herokuapp.com/
 	
-		Dar click enter
-		*Se muestra la Pagina de "Songs By Sinatra"
+	Dar click enter
+	*Se muestra la Pagina de "Songs By Sinatra"
 
 	validarHomePage()
 
-		Dar click link "log in"
-		*El sistema me redirige a la pagina de "login".
+	Dar click link "log in"
+	*El sistema me redirige a la pagina de "login".
 
 	ValidarLogInPage()
 	
-		Ingresar Nombre en campo "Username".
-		*El sistema muestra el nombre del texto en el campo de "Username".
+	Ingresar Nombre en campo "Username".
+	*El sistema muestra el nombre del texto en el campo de "Username".
+	Ingresar Nombre en campo "Password".
+	*El sistema muestra la contraseña encriptada en campo "Password".
 	
-		Ingresar Nombre en campo "Password".
-		*El sistema muestra la contraseña encriptada en campo "Password".
-	
-		Dar click botón "Log In".
-		*El sistema muestra una pagina con el siguiente texto en formato rojo "You are now logged in as frank".
+	Dar click botón "Log In".
+	*El sistema muestra una pagina con el siguiente texto en formato rojo "You are now logged in as frank".
 	
 	ValidarUserLoggedHomePage()
 }
