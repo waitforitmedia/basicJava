@@ -18,5 +18,3 @@ public class Floats {
 	    System.out.print(x + " divided by " + y + " is " + ( x / y) + "\n");
 	}
 }
-
-
