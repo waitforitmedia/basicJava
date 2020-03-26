@@ -16,14 +16,10 @@ public static void main(String args[])
 	case 'N':
 	case 'n':
 		System.out.print("no\n");
-		break;
+		break; 
 	default:
 		System.out.print("error\n");
 		break;
 	}
 }
 }
-
-
-
-

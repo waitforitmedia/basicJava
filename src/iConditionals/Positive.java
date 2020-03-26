@@ -7,7 +7,7 @@ public class Positive {
 	public static void main(String args[])
 	{
 		int i = get_positive_int();
-		System.out.print(i + " is a positive integer\n");
+		System.out.print(i + " is a positive integer\n");//Podemos poner 
 	}
 
 	public static int get_positive_int()

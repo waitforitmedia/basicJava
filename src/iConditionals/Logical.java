@@ -9,7 +9,7 @@ public class Logical {
 
 		System.out.println("Sabes programar en Java? ");
 		char c = Input.get_char();
-	    if (c == 'Y' || c == 'y')
+	    if (c == 'Y' || c == 'y')// es para mayusculo y minusculo en y entonces imprime yes
 	    {
 	    	System.out.print("yes\n");
 	    }
