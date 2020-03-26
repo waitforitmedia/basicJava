@@ -8,6 +8,6 @@ public class Aguas {
 	{
 		System.out.println("Cuantos munitos estuviste en la Ducha?");
 		int Num = Input.get_int();
-		System.out.println("Tu te tomaste "+ (Num * 12) + " litros de Agua");
+		System.out.println("Tu te gastaste "+ (Num * 12) + " litros de Agua");
 	}
 }
